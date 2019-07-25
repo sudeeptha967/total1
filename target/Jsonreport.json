@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "endtoend",
+        "description": "",
+        "id": "login-functionality;endtoend",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15522210900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the homepage",
+            "match": {
+              "location": "total.open_the_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3763809600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "register the product",
+            "match": {
+              "location": "total.register_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14953638300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login the page",
+            "match": {
+              "location": "total.login_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3530022500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search the product",
+            "match": {
+              "location": "total.search_the_product()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/total.feature",
+    "tags": []
+  }
+]
